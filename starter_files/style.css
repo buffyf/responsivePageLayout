@@ -137,7 +137,13 @@ header {
 @media screen and (min-width: 1100px) {
     #site_container header {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
+        align-items: center;
     }
-    */ .logo
+    #main_nav {
+        width: 60%;
+    }
+    #main_nav a {
+        padding: 12px;
+    }
 }
